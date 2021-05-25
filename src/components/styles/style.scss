@@ -1,0 +1,25 @@
+.app  {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation {
+
+} 
+
+.about {
+    display: flex;
+    flex-direction: row;
+
+    .about-left {
+        width: 30%;
+    }
+
+    .about-right {
+        width: 70%;
+        img {
+            border-radius: 50%;
+            width: 100%;
+        }
+    }
+}
