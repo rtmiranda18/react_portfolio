@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="about">
         <div className="about-left">
-            <h2>Hi! I am Reesh Miranda</h2>
+            <h2>Hi! I am Reesh Miranda.</h2>
             <p>
                 I am a former law student based in Manila, Philippines. I am currently taking the Full Stack Web Development Program at UC Berkeley. It is my intention to move back to California once I complete my program. I am currently seeking employment as a web developer in the tech industry.
                 <br /><br />
