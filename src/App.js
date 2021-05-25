@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import Header from './components/layout/Header'
 import Navigation from './components/layout/Navigation'
+import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Projects from './components/pages/Projects'
 import Contact from './components/pages/Contact'
@@ -25,9 +26,9 @@ const App = () => {
           <Route path="/contact">
             <Contact />
           </Route>
-          {/* <Route path="/">
+          <Route path="/">
             <Home />
-          </Route> */}
+          </Route>
         </Switch>
       </div>
     </Router>
